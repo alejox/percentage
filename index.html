@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percentage</title>
+  </head>
+  <body>
+    <header>
+      <h1>Percentages and discounts</h1>
+    </header>
+
+    <!-------------------------Form---------------------->
+    <main>
+      <section>
+        <form>
+          <label for="price">Price:</label>
+          <input id="price" type="number"><br><br>
+
+          <label for="discount">Discount %:</label>
+          <input id="discount" type="number"><br><br>
+
+          <button onClick="getDiscount()">Calculate</button>
+
+
+        </form>
+      </section>
+
+    </main>
+    <script src="./index.js"></script>
+  </body>
 </html>
