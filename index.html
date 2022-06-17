@@ -9,21 +9,23 @@
   <body>
     <header>
       <h1>Percentages and discounts</h1>
+      <p>Tool to calculate discounts</p>
     </header>
 
     <!-------------------------Form---------------------->
     <main>
       <section>
+        <h2>Calculate your discount here</h2>
         <form>
           <label for="price">Price:</label>
-          <input id="price" type="number"><br><br>
+          <input id="price" type="number" placeholder="$"> USD<br><br>
 
-          <label for="discount">Discount %:</label>
-          <input id="discount" type="number"><br><br>
+          <label for="discount">Discount:</label>
+          <input id="discount" type="number"> %<br><br>
 
-          <button onClick="getDiscount()">Calculate</button>
+          <button type="button" onClick="getDiscount()">Calculate</button>
 
-
+          <p id="resultPrice"></p>
         </form>
       </section>
 
